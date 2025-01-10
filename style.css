@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width : 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100vh;
+    width: 100%;
+}
+
+
+#top{
+    pointer-events: none;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+
+#back{
+    height: 100vh;
+    width: 100%;
+   
+}
+
+#work{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+#nav{
+    height: 10%;
+    width: 100%;
+    padding: 60px 0px;
+    display: flex;
+    justify-content: space-between;
+    pointer-events: all;
+    
+}
+
+#navleft , #navright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    
+
+}
+
+#nav img{
+    height: 60px;
+}
+
+#navleft a,#navright a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color : #FFF
+}
+
+
+#hero{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 5%;
+
+}
+
+#heroleft{
+    height: 100%;
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    
+}
+
+#heroright{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#elm{
+    position: relative;
+    height: 15%;
+    width: 100%;
+   overflow: hidden;
+    padding-bottom: 15%;
+    
+}
+#elm h1:nth-child(1){
+    top: 0%;
+}
+#elm h1{
+    top: 100%;
+    position: absolute;
+    font-size: 56px;
+    font-weight: 550;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF;
+    text-transform: uppercase;
+    line-height: 140%;
+    letter-spacing: -3px;
+}
+
+#explore{
+    font-size: x-large;
+    font-weight: 500;
+    width: 37%;
+    height: 12%;
+    pointer-events: all;
+
+}
+
+p{
+    color: #FFF;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: end;
+}
+
+#img{
+    width: 100%;
+    height: 30%;
+    background-image: url(https://cdn.pixabay.com/photo/2023/04/07/09/19/woman-7905926_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 5%;
+}
+
+#p3{
+   font-size: small;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+#back img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
